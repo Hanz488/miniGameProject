@@ -95,7 +95,7 @@ const app = Vue.createApp({
         },
 
         surrender() {
-            this.winner = 'monster'
+            this.playerHealth = 0;
         },
 
         addLog(actor, action, value) {
